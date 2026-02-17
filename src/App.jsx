@@ -1,12 +1,14 @@
 import "./App.css";
 import React from "react";
-import MovieCard from "./components/MovieCard";
-
+import Home from "./pages/Home";
 
 function App() {
+
+
   return (
-<MovieCard movie={{title: "Krishjot's Film", release_date: "2024-01-01"}}/>
-  );
+<Home />
+ 
+  )
 }
 
 
